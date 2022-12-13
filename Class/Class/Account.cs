@@ -3,7 +3,7 @@ namespace Class
 {
 	public class Account
 	{
-		public Account(string username, string password)
+		public void Login(string username, string password)
 		{
 			if (username == "cavid123" && password == "Cavid1993")
 			{
